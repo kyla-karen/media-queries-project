@@ -1,5 +1,5 @@
 /*Mobile*/
-@media media screen and (mid-width: 365px){
+@media screen and (min-width: 365px){
 
 
 
@@ -11,3 +11,33 @@
 
 
 /*Desktop*/
+
+@media screen and (min-width:934px) {
+    h1 {
+        float: left;
+
+    }
+    li {
+        display: inline;
+    }
+    .nav-links {
+        float: right;
+        list-style: none;
+        display: inline;
+    }
+    .header-img {
+        position: relative;
+        width:890px;
+        height:385px;
+
+    }
+
+.alert-info,
+.hidden-on-desktop {
+    display: none;
+}
+
+
+
+
+}
