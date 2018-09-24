@@ -1,6 +1,12 @@
 /*Mobile*/
-@media screen and (min-width: 365px){
-
+@media screen and (min-width: 480px){
+    .alert-info,
+    .hidden-on-desktop {
+        background-color: rgb(192 255 255);
+        border: 1px solid rgb(204 204 204);
+        text-align: center;
+        text-decoration: none;
+    }
 
 
 
